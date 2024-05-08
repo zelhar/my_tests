@@ -1,0 +1,5 @@
+this file
+is
+going to
+have 
+a merge conflict
