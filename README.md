@@ -62,3 +62,30 @@ To delete branch locally and then remotely is the same procedure:
 git branch -d branch_nane
 git push origin --delete branch_name
 ```
+
+### Merge conflict
+Tried to merge`master` into `other` but suppose that
+`file_with_conflict.txt` has conflicting changes between `master` and `other`.
+Edit the conflict file and replace marked conflicts with desired input:
+```
+<<<<<<< HEAD
+this file is
+=======
+this file was
+>>>>>>> master
+(edited this line from master)
+is
+(edited this line from conflict_branch)
+going to
+(and this line)
+have 
+a merge conflit (and this)
+```
+replace everything between the `<<<<HEAD >>>>` to whatever and make other
+changes possibly.
+Then add, commit, push the fixed file.
+```
+git add file_with_conflict.txt
+git commit -m "fixed conflict, merge completed."
+git push -u origin other
+```
