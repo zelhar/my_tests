@@ -32,6 +32,6 @@ git commit -m "added some_file.txt"
 switch to main branch and merge new branch into it, then push into the remote.
 ```
 git switch main
-git merge new_branch
-git commit -m
+git merge new_branch -m meged fix into main"
+git push -u origin main
 ```
