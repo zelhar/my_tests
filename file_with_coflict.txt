@@ -1,4 +1,4 @@
-this file is
+this file is now fixed and free from conflicts
 (edited this line from master)
 is
 (edited this line from conflict_branch)
