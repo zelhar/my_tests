@@ -35,3 +35,30 @@ git switch main
 git merge new_branch -m "merged fix into main."
 git push -u origin main
 ```
+
+delete the local branc, it only existed locally so now its completely gone:
+```
+git branch -d new_branch
+```
+
+
+### Renaming and deleting remote branches
+To rename a remote branch locally, then push it to remote:
+```
+git branch --move old_branch_name new_branch_name
+git switch new_branch_name
+git push -u origin new_branch_name
+
+```
+
+Now remotely bothe old and new branches still exist. 
+To remove the old one:
+```
+git push origin --delete old_branch_name
+```
+
+To delete branch locally and then remotely is the same procedure:
+```
+git branch -d branch_nane
+git push origin --delete branch_name
+```
