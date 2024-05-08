@@ -81,7 +81,7 @@ going to
 have 
 a merge conflit (and this)
 ```
-replace everything between the `<<<<HEAD >>>>` to whatever and make other
+replace the `<<<<HEAD >>>>` block which shows the conflicting version with the desired text and make other
 changes possibly.
 Then add, commit, push the fixed file.
 ```
