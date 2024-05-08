@@ -1,6 +1,8 @@
 this file
+(edited this line from master)
 is
 (edited this line from conflict_branch)
 going to
+(and this line)
 have 
-a merge conflict
+a merge conflit (and this)
