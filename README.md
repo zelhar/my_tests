@@ -4,8 +4,8 @@
 
 ### Refs
 Good sources for reference:
-https://git-scm.com/book/de/v2/
-https://www.toptal.com/developers/gitignore
+* https://git-scm.com/book/de/v2/
+* https://www.toptal.com/developers/gitignore
 
 
 ### Tips
