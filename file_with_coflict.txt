@@ -1,5 +1,6 @@
 this file
 is
+(edited this line from conflict_branch)
 going to
 have 
 a merge conflict
