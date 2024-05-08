@@ -1,4 +1,4 @@
-this file
+this file is
 (edited this line from master)
 is
 (edited this line from conflict_branch)
